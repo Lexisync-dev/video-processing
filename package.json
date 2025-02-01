@@ -1,0 +1,18 @@
+{
+  "name": "video-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "worker": "node src/worker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.80.9",
+    "cpeak": "^1.4.0",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
